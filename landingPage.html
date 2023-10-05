@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Results</title>
+    <link rel="stylesheet" href="landingPage.css">
+</head>
+<body>
+    
+    <header class="head">
+        <img src="images/Logo.png">
+        <div class="mid">
+            <p id="mid1">Bordeaux </p><hr>
+            <p id="mid2">Feb 19-26</p><hr>
+            <p id="mid3">2guests
+                <div class="search">
+                    
+                </div>
+            </p>
+        </div>
+        <div class="top-right-nav">
+            <a href="#" style="color:black">Become a Host</a>
+            <img src="images/global2.png" alt="globe">
+            <img style="margin-top:10px" src="images/Profile Dropdown.png" alt="dropdown">
+        </div>
+    </header>
+
+    <div class="downnav">
+        <select name="price" id="price">
+            <option>Price</option>
+        </select>
+        <select name="price" id="price">
+            <option>Type of places</option>
+        </select>
+        <button>Free Cancellation</button>
+        <button>Wifi</button>
+        <button>Kitchen</button>
+        <button>Air Conditioning</button>
+        <button>Washer</button>
+        <button>Iron</button>
+        <button>Dedicated Workspace</button>
+        <button>Free parking</button>
+        <button>Dryer</button>
+        <button>Filter</button>
+    </div>
+
+    <div class="main">
+    <div id="listings-container">
+        <!-- Listings will be appended here -->
+    </div>
+    <div class="map">
+
+        <iframe id="mapIframe" width="450" height="1000px"
+         frameborder="0" style="border:0;"></iframe>
+    </div>
+</div>
+    <script src="landingPage.js"></script>
+</body>
+</html>
